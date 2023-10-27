@@ -3808,3 +3808,32 @@ input, select, textarea {
 				float: none;
 			}
 		}
+
+		.certifications {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+	
+		.certification {
+			width: 33.33%; /* Adjust the width as needed */
+			/* margin: 10px; */
+			text-align: center;
+			/* border: 1px solid #ccc; */
+			/* padding: 10px; */
+			text-decoration: none;
+		}
+		.certification a{
+			text-decoration: none; /* Remove borders around images */
+		}
+		@media (max-width: 768px) {
+			.certifications {
+				flex-direction: column;
+			}
+	
+			.certification {
+				width: 100%;
+				
+			}
+		
+		}
